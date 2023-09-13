@@ -36,7 +36,38 @@ blockquote {
 }
 
 .header {
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
     padding: 24px 20px;
+}
+
+.header_logo {
+    display: block;
+    width: 78px;
+}
+
+.header_logo-menu {
+    width: 100%;
+}
+
+.header_menu-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    list-style: none;
+}
+
+.header_menu-link {
+    color: #fff;
+    font-size: 16px;
+    line-height: 19.2px;
+    text-decoration: underline;
+}
+
+.header_menu-link-active .header-menu-link{
+    text-decoration: none;
+    list-style: none;
 }
 
 .cover {
