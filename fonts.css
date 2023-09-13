@@ -8,10 +8,11 @@
         url(./ebgaramondmedium.woff2)
             format(woff2);
     font-size: 500;
+    font-display: swap;
 }
 
 @font-face {
-    font-family: 'EB Garamond Regular';
+    font-family: 'EB Garamond';
     src:
         url(./ebgaramondregular.ttf)
             format(truetype),
@@ -20,10 +21,11 @@
         url(./ebgaramondregular.woff2),
             format(woff2);
     font-size:400;
+    font-display: swap;
 }
 
 @font-face {
-    font-family: 'Interbold';
+    font-family: 'Inter';
     src:
         url(./interbold.ttf)
             format(truetype),
@@ -31,12 +33,12 @@
             format(woff),
         url(./interbold.woff2),
             format(woff2);
-    font-weight: bold;
     font-size: 400;
+    font-display: swap;
 }
 
 @font-face {
-    font-family: 'InterRegular';
+    font-family: 'Inter';
     src:
         url(./interregular.ttf)
             format(truetype),
@@ -45,4 +47,5 @@
         url(./interregular.woff2)
             format(woff2);
     font-size: 700;
+    font-display: swap;
 }
