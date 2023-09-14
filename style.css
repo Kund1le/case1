@@ -5,6 +5,8 @@ body {
     background-color: #1e1e1e;
 }
 
+
+
 h1,
 h2,
 h3,
@@ -67,16 +69,81 @@ blockquote {
 
 .header_menu-link-active .header-menu-link{
     text-decoration: none;
-    list-style: none;
 }
 
 .cover {
+    min-height: 258px;
     padding: 7px 24px 32px 20px;
+    background-image: url(../images/cover.svg);
+    background-repeat: no-repeat;
+    background-size: 95% auto;
+    background-position: right center;
+}
+
+.cover_title {
+    color: #fff;
+    font-family: 'EB Garamond', serif;
+    width: 100%;
+    line-height: 100%;
+}
+
+.accent-span {
+    display: block;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
 }
 
 .intro {
     padding: 0px 20px 38px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    flex-shrink: 0;
+    align-content: center;
+    font-family: 'Inter';
 }
+
+.intro_heading {
+    display: flex;
+    color: #CCC;
+    justify-content: space-between;
+    gap: 22px;
+    font-size: 16px;
+}
+
+.intro-title {
+    color: #CCC;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.intro_date {
+    white-space: nowrap;
+    color: #CCC;
+    font-size: 16px;
+}
+
+.intro_main-text {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    color: #f5f5f5;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 135%;
+}
+
 .reasons {
     padding: 40px 20px;
 }
